@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:5050
+
+### 1. Criar produto (copie o id retornado)
+POST {{baseUrl}}/api/produtos
+Content-Type: application/json
+
+{"nome":"Caderno","preco":19.90}
+
+### 2. Listar todos
+GET {{baseUrl}}/api/produtos
+
+### 3. Buscar por ID (troque o GUID abaixo)
+GET {{baseUrl}}/api/produtos/00000000-0000-0000-0000-000000000000
+
+### 4. Atualizar (troque o GUID)
+PUT {{baseUrl}}/api/produtos/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+
+{"nome":"Caderno grande","preco":24.90}
+
+### 5. Excluir (troque o GUID)
+DELETE {{baseUrl}}/api/produtos/00000000-0000-0000-0000-000000000000
