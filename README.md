@@ -139,3 +139,8 @@ curl -i -X DELETE http://localhost:5050/api/produtos/SEU-ID
 4. Trocar o repositório em memória por um banco usando Entity Framework Core.
 
 **Dica:** leia os comentários `ETAPA 0` a `ETAPA 5` nos arquivos; eles acompanham uma requisição de criação ponta a ponta.
+
+
+## 9. HLA Fluxo
+<img width="1536" height="1024" alt="Arquitetura HLA para CRUD de Produtos" src="https://github.com/user-attachments/assets/cd3c81ea-d709-4514-b8df-ad4e9cc995da" />
+
